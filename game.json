@@ -168,6 +168,60 @@
         "name": "38725533.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screen Shot 2021-05-13 at 12.18.45 AM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screen Shot 2021-05-13 at 12.18.45 AM.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ScreenShot2021-05-13at1218-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ScreenShot2021-05-13at1218-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "treasure_map.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "treasure_map.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "black.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "black.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "caesar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "caesar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Screen Shot 2021-04-12 at 3.11.29 PM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screen Shot 2021-04-12 at 3.11.29 PM.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -208,15 +262,15 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 657,
           "layer": "",
           "locked": false,
           "name": "Background",
           "persistentUuid": "5ed1c819-afa8-4e12-b8fe-3b61476686fa",
-          "width": 0,
-          "x": -388,
-          "y": -300,
+          "width": 968,
+          "x": -2,
+          "y": -4,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -228,92 +282,12 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Title",
-          "persistentUuid": "ee8b8f0f-ddcc-4f6a-af6c-1e59cdf5f985",
+          "name": "CaesarIsland",
+          "persistentUuid": "7403c7bb-65ea-484b-b8a6-ef36d3c094e6",
           "width": 0,
-          "x": 157,
-          "y": 31,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Caesar",
-          "persistentUuid": "8a6d6747-e7a4-437e-97e3-16aaae247b4e",
-          "width": 0,
-          "x": 160,
-          "y": 137,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Vigenere",
-          "persistentUuid": "054d401b-cca2-437d-b3be-ae89b6c35218",
-          "width": 0,
-          "x": 157,
-          "y": 200,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Substitution",
-          "persistentUuid": "9ea6f677-7639-46f0-af34-0d6fc5711287",
-          "width": 0,
-          "x": 159,
-          "y": 265,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Custom",
-          "persistentUuid": "03605373-6120-4c48-8875-aa6a531e10f9",
-          "width": 0,
-          "x": 161,
-          "y": 334,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "CaesarChest",
-          "persistentUuid": "d071283f-647d-4819-b1b5-4ad3db8b6281",
-          "width": 0,
-          "x": 519,
-          "y": 121,
-          "zOrder": 13,
+          "x": 256,
+          "y": 188,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -338,7 +312,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "38725532.jpg",
+                      "image": "treasure_map.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -358,101 +332,6 @@
               ]
             }
           ]
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Caesar",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Caesar (Easy)",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Vigenere",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Vigenere (Medium)",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Substitution",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Substitution (Hard)",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "Title",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Welcome to Encryption Island",
-          "font": "",
-          "characterSize": 30,
-          "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Custom",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "Custom (Create Your Own Cipher!)",
-          "font": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
         },
         {
           "name": "CaesarChest",
@@ -494,13 +373,43 @@
           ]
         },
         {
-          "name": "NewObject",
+          "name": "CaesarIsland",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "black.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -515,7 +424,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "CaesarChest",
+                "CaesarIsland",
                 "",
                 "yes",
                 ""
@@ -531,7 +440,7 @@
               },
               "parameters": [
                 "",
-                "\"Caesar puzzle\"",
+                "\"Caesar island\"",
                 "yes"
               ],
               "subInstructions": []
@@ -1005,6 +914,121 @@
           "ambientLightColorB": 7379576,
           "ambientLightColorG": 7208344,
           "ambientLightColorR": 6921872,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Caesar_32island",
+      "name": "Caesar island",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 606,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "persistentUuid": "ff69fa3f-482c-46c1-98af-516da51d877a",
+          "width": 964,
+          "x": -2,
+          "y": -1,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "caesar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 7679768,
+          "ambientLightColorG": 7666344,
+          "ambientLightColorR": 7434592,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
